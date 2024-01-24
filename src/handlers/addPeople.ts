@@ -1,5 +1,5 @@
 'use strict';
-const AWS = require("aws-sdk");
+import AWS = require("aws-sdk");
 
 
 module.exports.addPeople =async (event) => {
