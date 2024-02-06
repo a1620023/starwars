@@ -2,7 +2,7 @@
   "name": "starwars",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "listPeople.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serverless-offline": "^13.3.3"
+    "serverless-offline": "^13.3.3",
+    "serverless-plugin-typescript": "^2.1.5",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "querystring": "^0.2.1"
+    "aws-sdk": "^2.1542.0",
+    "querystring": "^0.2.1",
+    "serverless-dynamodb-local": "^0.2.40",
+    "uuid": "^9.0.1"
   }
 }
